@@ -80,12 +80,15 @@ $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS; // Encry
 ```
 
 2. To send emails from Unreal Engine with VaRest, you need to enter the SMTPServer folder address in the ApplyURL node in the GameInstance. Make sure the address is correct to be able to send the emails.
+   
 ![SMTP Server in Unreal Engine](https://i.imgur.com/r6N50R1.jpeg)
 
 3. In the Unreal Engine project, a form is included within a Widget called SendEmail. You can use this Widget to perform tests and verify the email sending functionality directly from the game.
+   
 ![SMTP Server in Unreal Engine](https://i.imgur.com/xCVGUcw.jpeg)
 
 4. We use the SMTP_MailServer node from GameInstance to pass the email content data so that it can be sent. The node allows you to provide the necessary details, such as the recipient, subject, and content of the email. By configuring this node properly, you ensure that the correct information is sent to the SMTP server for email delivery.
+   
 ![SMTP Server in Unreal Engine](https://i.imgur.com/u7YDyig.jpeg)
 
 5. To send an email with an HTML body, make sure to enable the **isHTML?** variable. This allows you to send the content in HTML format. You can then use Unreal Engine's Append node to build and format the HTML content, as shown in the image below.
