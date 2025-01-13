@@ -1,6 +1,6 @@
 # SMTP Server for Unreal Engine
 
-This project provides a simple SMTP server integration using **PHPMailer** to send emails from Unreal Engine. It receives email parameters via GET requests and sends the email using an SMTP server.
+This project provides a simple SMTP server integration using **PHPMailer** and PHP to send emails from Unreal Engine. It receives email parameters via GET requests and sends the email using an SMTP server through Unreal Engine.
 
 ---
 
@@ -14,18 +14,29 @@ This project provides a simple SMTP server integration using **PHPMailer** to se
 
 ## 📂 File Structure
 - `PHPMailer/`: Contains the PHPMailer library files.
-- `smtp_server.php`: Main script to handle email sending requests.
+- `mailsystem.php`: Main script to handle email sending requests.
 
 ---
 
 ## 📋 Prerequisites
 1. **PHP 7.4+** installed on your server.
 2. A valid SMTP server (e.g., Gmail, Outlook, or a custom mail server).
-3. Unreal Engine configured to send GET requests to the server.
+3. VaRest Plugin
+4. Unreal Engine configured to send GET requests to the server.
 
 ---
-
-## ⚙️ Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/smtp-server-unreal.git
+## 📋 Step 1
+> **Note:**  
+> Replace the following placeholders in the `mailsystem.php` file with your actual SMTP server details:  
+> 
+> ```php
+> $mail->Host = 'mail.example.com'; // Your SMTP server
+> $mail->Username = 'youremail@example.com'; // Your email address
+> $mail->Password = 'youremailpassword'; // Your password
+> ```
+> - **`$mail->Host`**: The address of your SMTP server (e.g., `smtp.gmail.com` or `mail.yourdomain.com`).  
+> - **`$mail->Username`**: The email address you will use to send the emails.  
+> - **`$mail->Password`**: The password for your email account.  
+>
+> ⚠️ **Important:** Never hardcode sensitive credentials for production. Use environment variables or a secure configuration method instead.
+> 
