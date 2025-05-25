@@ -1,6 +1,6 @@
 # UNREAL ENGINE Email SMTP Service
 
-UE SMTP SERVER is a PHP-based SMTP server designed to integrate with Unreal Engine, allowing developers to send emails seamlessly through various SMTP providers. This tool supports HTML and plain-text emails and includes a simple configuration for connecting to popular email services.
+Email SMTP Service is a PHP-based SMTP server designed to integrate with Unreal Engine, allowing developers to send emails seamlessly through various SMTP providers. This tool supports HTML and plain-text emails and includes a simple configuration for connecting to popular email services.
 
 [Watch this video](https://www.youtube.com/watch?v=CA4Fh9u37T0)
 
@@ -50,7 +50,7 @@ These parameters must be passed in the request to send an email:
   
 ---
 ## 🚀 Before you begin
-UE SMTP SERVER allows you to connect to an SMTP server to send emails. You must use the server corresponding to the email address you want to use to send the email. Here is a list of common SMTP servers:
+Email SMTP Service allows you to connect to an SMTP server to send emails. You must use the server corresponding to the email address you want to use to send the email. Here is a list of common SMTP servers:
 
 | **Email Extension** | **Server Type** | **Server Address**    | **Security** | **Port** | **Requires Authentication** |
 |---------------------|-----------------|-----------------------|--------------|----------|-----------------------------|
@@ -97,7 +97,7 @@ This will let you create rich email content with custom styling, links, images, 
 
 
 ## 📋 Examples
-The UE SMTP Server can be used in Unreal Engine to send emails for various purposes such as player notifications, password resets, account validation, support requests, and rewards or promotions. It streamlines communication and enhances player engagement within your game
+The Email SMTP Service can be used in Unreal Engine to send emails for various purposes such as player notifications, password resets, account validation, support requests, and rewards or promotions. It streamlines communication and enhances player engagement within your game
 
 ![SMTP Server in Unreal Engine](https://i.imgur.com/Yw7H2pC.jpeg)
 ![SMTP Server in Unreal Engine](https://i.imgur.com/uS29s4A.jpeg)
