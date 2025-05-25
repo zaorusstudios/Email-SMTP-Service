@@ -2,7 +2,7 @@
 
 Email SMTP Service is a PHP-based SMTP server designed to integrate with Unreal Engine, allowing developers to send emails seamlessly through various SMTP providers. This tool supports HTML and plain-text emails and includes a simple configuration for connecting to popular email services.
 
-[Watch this video](https://www.youtube.com/watch?v=CA4Fh9u37T0)
+[Watch this video](https://youtu.be/-9392gnuSRg)
 
 ![Email SMTP Service in Unreal Engine](https://i.imgur.com/uQuhQZn.jpeg)
 
