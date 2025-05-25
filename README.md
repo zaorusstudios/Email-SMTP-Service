@@ -4,7 +4,7 @@ UE SMTP SERVER is a PHP-based SMTP server designed to integrate with Unreal Engi
 
 [Watch this video](https://www.youtube.com/watch?v=CA4Fh9u37T0)
 
-![Email SMTP Service in Unreal Engine]([https://i.imgur.com/iZiA95v.png](https://i.imgur.com/uQuhQZn.jpeg))
+![Email SMTP Service in Unreal Engine]((https://i.imgur.com/uQuhQZn.jpeg))
 
 ---
 ## 🌟 DOWNLOAD UNREAL ENGINE PROJECT
