@@ -1,4 +1,4 @@
-# UNREAL ENGINE SMTP SERVER
+# UNREAL ENGINE Email SMTP Service
 
 UE SMTP SERVER is a PHP-based SMTP server designed to integrate with Unreal Engine, allowing developers to send emails seamlessly through various SMTP providers. This tool supports HTML and plain-text emails and includes a simple configuration for connecting to popular email services.
 
